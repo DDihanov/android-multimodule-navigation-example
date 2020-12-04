@@ -1,0 +1,6 @@
+include ':commonui'
+include ':dashboard'
+include ':navigation'
+include ':home'
+include ':app'
+rootProject.name = "MultiModuleNavigationExample"
