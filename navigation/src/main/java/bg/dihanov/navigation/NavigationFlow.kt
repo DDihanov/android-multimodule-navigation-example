@@ -2,5 +2,5 @@ package bg.dihanov.navigation
 
 sealed class NavigationFlow {
     object HomeFlow : NavigationFlow()
-    object DashboardFlow : NavigationFlow()
+    class DashboardFlow(val msg: String) : NavigationFlow()
 }

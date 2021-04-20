@@ -22,5 +22,10 @@
         android:id="@+id/action_global_dashboard_flow"
         app:destination="@id/dashboard_flow"
         app:enterAnim="@anim/nav_default_enter_anim"
-        app:exitAnim="@anim/nav_default_exit_anim" />
+        app:exitAnim="@anim/nav_default_exit_anim" >
+
+        <argument
+            android:name="msg"
+            app:argType="string" />
+    </action>
 </navigation>

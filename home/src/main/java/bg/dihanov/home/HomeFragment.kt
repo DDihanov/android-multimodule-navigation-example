@@ -28,7 +28,7 @@ class HomeFragment : Fragment() {
         }
 
         to_dashboard_flow.setOnClickListener {
-            (requireActivity() as ToFlowNavigatable).navigateToFlow(NavigationFlow.DashboardFlow)
+            (requireActivity() as ToFlowNavigatable).navigateToFlow(NavigationFlow.DashboardFlow("From home fragment"))
         }
     }
 }

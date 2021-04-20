@@ -3,4 +3,5 @@
     <string name="next_fragment">Next</string>
     <string name="to_next_fragment">To next fragment</string>
     <string name="to_dashboard">Navigate to dashboard flow</string>
+    <string name="to_dashboard_fragment_via_deeplink">To dashboard fragment via deeplink</string>
 </resources>

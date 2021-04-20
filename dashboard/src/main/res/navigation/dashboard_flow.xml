@@ -6,5 +6,15 @@
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="bg.dihanov.dashboard.DashboardFragment" />
+        android:name="bg.dihanov.dashboard.DashboardFragment">
+
+        <argument
+            android:defaultValue=""
+            android:name="msg"
+            app:argType="string" />
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="example://dashboard/exampleArgs?msg={msg}" />
+    </fragment>
 </navigation>

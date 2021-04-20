@@ -23,7 +23,7 @@ class StartFragment : Fragment() {
         (0..1).random().let {
             when (it) {
                 0 -> (requireActivity() as ToFlowNavigatable).navigateToFlow(NavigationFlow.HomeFlow)
-                1 -> (requireActivity() as ToFlowNavigatable).navigateToFlow(NavigationFlow.DashboardFlow)
+                1 -> (requireActivity() as ToFlowNavigatable).navigateToFlow(NavigationFlow.DashboardFlow("From start fragment"))
             }
         }
     }

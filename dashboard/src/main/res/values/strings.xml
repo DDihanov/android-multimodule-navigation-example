@@ -2,4 +2,5 @@
 <resources>
     <string name="dashboard">Dashboard</string>
     <string name="nav_to_home_flow">Navigate to home flow</string>
+    <string name="nav_to_next">Navigate to next fragment via deeplink</string>
 </resources>

@@ -14,6 +14,12 @@
 
     <fragment
         android:id="@+id/nextFragment"
-        android:name="bg.dihanov.home.NextFragment" />
+        android:name="bg.dihanov.home.NextFragment" >
+
+
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="example://next" />
+    </fragment>
 
 </navigation>
